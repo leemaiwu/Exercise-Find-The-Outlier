@@ -12,7 +12,7 @@ function outlier () {
         }
     } if (evenOutput < oddOutput) {
         return evenOutput
-    } else if (oddOutput < evenOutput) {
+    } else {
         return oddOutput
     }
 }
